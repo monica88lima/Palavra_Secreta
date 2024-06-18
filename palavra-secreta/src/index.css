@@ -1,0 +1,35 @@
+html,body{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: rgb(203,199,226);
+  background: linear-gradient(180deg, rgba(203,199,226,1) 0%, rgba(199,101,145,1) 51%);
+  color:#de2879 ;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+}
+button{
+  
+  padding: 0 45px;
+  border: 2px solid #e2cad5;
+  border-radius: 32px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.7em;
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: #b43c72;
+  color: #e2cad5;
+ 
+}
+
+button:hover{
+  background-color: chartreuse;
+  color: #e61371;
+}
