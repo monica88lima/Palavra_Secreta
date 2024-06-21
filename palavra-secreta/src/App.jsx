@@ -19,9 +19,28 @@ function App() {
 
   const [statusJogo, useStateStatusJogo] = useState(statusPartida[0].nome);
   const [palavras] = useState(bancoPalavras);
-  console.log(palavras);
+  
+  const [palavraescolhida, setPalavraescolhida] = useState("");
+  const [categoriaescolhida, setcategoriaescolhida] = useState("");
+  const [letras, setletras] = useState([]);
+
+  //function determinar categoria e palavra
+  const escolherPalavraECategoria =() => {
+   const categorias = Object.keys(bancoPalavras);
+   const categoria = categorias[Math.floor(Math.random() * Object.keys(categorias).length)];
+
+   const palavra = bancoPalavras[categoria][Math.floor(Math.random() * bancoPalavras[categoria].length)];
+  return {palavra, categoria};
+  }
 
   const comecarJogo = ()=>{
+    const {palavra, categoria} = escolherPalavraECategoria();
+     let letras = palavra.toUpperCase().split("");
+     
+    setcategoriaescolhida(categoria);
+    setPalavraescolhida(palavra);
+    setletras(letras);
+   
     useStateStatusJogo (statusPartida[1].nome);
   }
  
