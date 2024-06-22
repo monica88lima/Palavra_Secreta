@@ -1,8 +1,11 @@
 import "./FinalPartida.css"
 
-const FinalPartida = ({reiniciar} ) => {
+const FinalPartida = ({reiniciar, pontuacao} ) => {
   return (
-    <div><p>Final</p>
+    <div className="containerFimJogo">
+      <p>Fim de Jogo</p>
+      <h2>Sua Pontuação foi: <span>{pontuacao}</span></h2>
+
       <button onClick={reiniciar}>Recomeçar</button>
     </div>
   )
