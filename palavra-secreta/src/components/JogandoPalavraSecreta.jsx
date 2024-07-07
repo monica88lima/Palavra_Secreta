@@ -10,6 +10,7 @@ const JogandoPalavraSecreta = ({
   letrasAdvinhadas,
   tentativas,
   pontuacao,
+  desistir,
 }) => {
   console.log(categoria);
   const [letraDigitada,setLetraDigitada]=useState("");
@@ -57,6 +58,7 @@ const JogandoPalavraSecreta = ({
           <span key={i}>{letra} - </span>
         ))}
       </div>
+      <button onClick={()=>desistir()}>Reiniciar</button>
     </div>
   );
 };

@@ -1,0 +1,9 @@
+.acertou {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    row-gap: 64px;
+  }
+  

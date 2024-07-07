@@ -6,7 +6,7 @@ const FinalPartida = ({reiniciar, pontuacao} ) => {
       <p>Fim de Jogo</p>
       <h2>Sua Pontuação foi: <span>{pontuacao}</span></h2>
 
-      <button onClick={reiniciar}>Recomeçar</button>
+      <button onClick={reiniciar}>Início</button>
     </div>
   )
 }

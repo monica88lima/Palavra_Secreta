@@ -26,6 +26,9 @@ button{
   transition: 0.4s;
   background-color: #b43c72;
   color: #e2cad5;
+  width: 200px;
+
+  padding-right: 55px;
  
 }
 
@@ -33,3 +36,4 @@ button:hover{
   background-color: chartreuse;
   color: #e61371;
 }
+
