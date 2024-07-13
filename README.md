@@ -4,7 +4,7 @@ Jogo de advinhar a palavra, indicando letras para completar o nome e a cada acer
 # Meu Projeto
 Você pode acessar a página do projeto [aqui](https://jogodaspalavras.netlify.app/).
 
-![Assista o vídeo](URL_DO_GIF)
+![Assista o vídeo]([URL_DO_GIF](https://github.com/monica88lima/Palavra_Secreta/blob/main/giphy.mp4))
 
 Este é um projeto incrível. Veja o vídeo abaixo para mais detalhes:
 
